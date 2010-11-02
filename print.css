@@ -1,0 +1,133 @@
+/*body*/
+body {font-family:Helvetica, sans-serif;
+}
+
+div#header {display:none; margin:0; padding:0;
+}
+
+div#wrapper {margin: 0 auto; font-family:sans-serif;
+}
+
+div#content {margin: 0 auto; font-family:sans-serif; font-size:10pt;
+}
+
+
+/*navigation*/
+div#navigation {display:none; margin:0; padding:0;
+}
+
+
+/*header*/
+ul#resume_header {list-style: none; width:100%; margin:0px 0px 5px 0px; text-align:center;
+}
+
+li#contact {width:75%;margin:auto; border-top: solid; padding-top:5px;
+}
+
+
+/*headings*/
+h2 {font-size:18pt; font-family:serif; font-weight:bold; margin:0 auto; 
+}
+
+h3 {font-size:11pt; margin: 10px 0px 0px 0px; padding:5px 10px; border-bottom: thin solid; 
+}
+
+/*lists*/
+ul {margin: 5px; list-style-type:none;
+}
+li {margin: 5px 0px;
+}
+
+/*emphasis*/
+* strong {font-weight:bold;
+}
+
+* em {font-style:italic;}
+
+
+/*CSS for resume*/
+
+/*education*/
+ul.degree {margin-bottom:5px; margin-top:10px;
+}
+
+ul.degree li.date {position: absolute; margin: 0; padding-left:5px;
+}
+
+ul.degree > li {margin-left: 135px;
+}
+
+/*work experience*/
+ul.position {margin-bottom:5px; margin-top:10px;
+}
+
+ul.position li.date {position: absolute; margin: 0; padding-left:5px;
+}
+
+ul.position > li {margin-left: 135px;
+}
+
+ul.position ul.tasks {margin-left:10px;
+}
+
+ul.tasks > li {list-style-type:square;
+}
+
+/*skills*/
+ul.skills {margin-bottom:5px; margin-top:10px;
+}
+
+ul.skills > li {margin-left: 135px;
+}
+
+ul.skills li.skilltype {position: absolute; margin: 0; padding-left:5px;
+}
+
+/*CSS for portfolio*/
+/*images*/
+img {width: 300px;
+}
+
+/*LaTeX*/
+.latex {
+font-family: Times, "Times New Roman", serif;
+   letter-spacing: 1px;
+}
+
+.latex sup {
+   text-transform: uppercase;
+   letter-spacing: 1px;
+  font-size: 0.85em;
+   vertical-align: 0.15em;
+   margin-left: -0.36em;
+   margin-right: -0.15em;
+}
+
+.latex sub {
+   text-transform: uppercase;
+   vertical-align: -0.5ex;
+   margin-left: -0.1667em;
+   margin-right: -0.125em;
+   font-size: 1em;
+}  
+
+ul.portfolio{margin-left: 330px; padding-top:10px;
+}
+
+ul.port_images {position: absolute; margin:0; padding-top:10px;
+}
+
+ul.port_images li.caption{padding-bottom:10px; font-size:8pt;
+}
+
+ul.portfolio a,a:active,a:hover{text-decoration:none; outline:none; color:#99FF00; padding-top: 750px;
+}
+
+
+
+
+
+div#footer {float:right; padding:10px 0px; font-size:x-small;
+}
+
+

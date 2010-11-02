@@ -1,0 +1,287 @@
+/*GENERAL*/
+
+html {
+	background-color: #222222;
+	background: url(img/bg_black.jpg);
+}
+
+body {
+	font-family:Helvetica, sans-serif;
+	color:white;
+}
+
+div#wrapper {
+	width: 850px;
+	margin: 0 auto;
+	margin-top:35px;
+}
+
+div#header{
+	margin:0 auto;
+	padding: 30px 25px;
+	background: url(img/swirls_blue2.jpg);
+	border: thin solid gray;
+}
+
+div#content{
+
+	margin: 0 auto;
+	padding:15px 35px;
+	font-family:sans-serif;
+	font-size:12px;
+	background-color: black;
+	border: thin solid gray;
+}
+
+
+/*NAVIGATION*/
+
+div#navigation {
+	width:100%;
+	margin-bottom: 35px;
+	font-size:14px;
+}
+
+div#navigation ul{
+	margin:0px 10px;
+}
+
+div#navigation ul li{
+	display:inline;
+	width: 15px;
+	padding:15px;
+	background-color:#2b4255;
+	border-top: solid thin gray;
+}
+
+div#navigation a,a:link,a:visited{
+	text-decoration:none;
+	color:white;
+}
+
+div#navigation a:hover,a:active{
+	text-decoration:none;
+	color:#99FF00;
+	outline:none;
+}
+
+
+/*HEADINGS*/
+
+/*site name*/
+h1 {
+	padding-left:10px;
+	font-family: Gil Sans, Geneva, sans-serif;
+	font-size: 34px;
+	font-weight:bold;
+	color:white;
+}
+
+/*slogan*/
+h2{
+	padding-left:10px;
+}
+
+/*page name*/
+h3{
+	text-align:right;
+	font-size:22px;
+	font-weight:bold;
+	color:#527280;
+}
+
+/*name on resume*/
+h4 {
+	width:65%;
+	margin:auto;
+	padding-top: 20px;
+	font-family:serif;
+	font-size:26px;
+ 	font-weight:bold;
+	color:white;
+}
+
+/*heading*/
+
+h5 {
+	padding:5px 100px 5px 10px;
+	font-size:16px;
+	border-bottom: thin solid #527280;
+}
+
+
+
+
+/*LISTS*/
+
+ul {margin: 8px;
+}
+
+li {margin: 5px 0px;
+}
+
+
+/*EMPHASIS*/
+* strong {
+	font-weight:bold;
+	color:#a3c0d2;
+}
+
+* em {
+	font-style:italic;
+}
+
+
+/*CSS FOR RESUME*/
+
+/*resume header*/
+
+ul#resume_header {
+	width:100%;
+	margin:5px 0px 15px 0px;
+	text-align:center;
+	list-style: none;
+}
+
+li#contact {
+	width:75%;
+	margin:auto;
+	padding:10px;
+	border-top: solid #527280;
+}
+
+
+/*education*/
+
+ul.degree {
+	margin-top:10px;
+	margin-bottom:20px;
+}
+
+ul.degree li.date {
+	position: absolute;
+	margin: 0;
+	padding-left:5px;
+}
+
+ul.degree > li {
+	margin-left: 175px;
+}
+
+
+/*work experience*/
+
+ul.position {
+	margin-top:10px;
+	margin-bottom:5px;
+}
+
+ul.position li.date {
+	position: absolute;
+	margin: 0;
+	padding-left:5px;
+}
+
+ul.position > li {
+	margin-left: 175px;
+}
+
+ul.position ul.tasks {
+	width:90%;
+	margin-left:25px;
+}
+
+ul.tasks > li {
+	list-style-type:square;
+}
+
+
+/*skills*/
+
+ul.skills {
+	margin-top:10px;
+	margin-bottom:5px;
+}
+
+ul.skills > li {
+	margin-left: 175px;
+	padding-bottom:5px;
+}
+
+ul.skills li.skilltype {
+	position: absolute;
+	margin: 0;
+	padding-left:5px;
+}
+
+
+/*CSS FOR PORTFOLIO*/
+
+ul.portfolio{
+	margin-left: 330px;
+	padding-top:10px;
+}
+
+ul.portfolio li{
+    padding-bottom:10px;
+}
+
+ul.port_images {
+	position: absolute;
+	padding-top:10px;
+}
+
+ul.port_images li.caption{
+	padding-bottom:8px;
+	font-size:9px;
+	color:#a3c0d2;
+}
+
+ul.portfolio a:active,a:hover{
+	padding-top: 750px;
+	text-decoration:none;
+	color:#99FF00;
+	outline:none;
+}
+
+
+/*portfolio images*/
+img {
+	width: 300px;
+}
+
+
+/*LaTeX logo font*/
+
+.latex {
+	font-family: Times, "Times New Roman", serif;
+   	letter-spacing: 1px;
+}
+
+.latex sup {
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-size: 0.85em;
+	vertical-align: 0.15em;
+	margin-left: -0.36em;
+	margin-right: -0.15em;
+}
+
+.latex sub {
+	text-transform: uppercase;
+	vertical-align: -0.5ex;
+	margin-left: -0.1667em;
+	margin-right: -0.125em;
+	font-size: 1em;
+}
+
+
+/*FOOTER*/
+
+div#footer {
+	padding:15px 0px;
+	text-align: right;
+	font-size:x-small;
+	color:#527280;
+}
+
