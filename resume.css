@@ -250,6 +250,12 @@ img {
 	width: 300px;
 }
 
+img.arrow {
+    width: 1em;
+    text-align:right;
+    vertical-align:bottom;
+    padding:0px 5px;
+}
 
 /*LaTeX logo font*/
 
