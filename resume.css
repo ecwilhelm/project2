@@ -244,6 +244,9 @@ ul.portfolio a:active,a:hover{
 	outline:none;
 }
 
+ul.gallery{
+    list-style: square;
+}
 
 /*portfolio images*/
 img {
