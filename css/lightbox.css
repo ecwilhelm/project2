@@ -1,5 +1,5 @@
 #lightbox{	position: absolute;	left: 0; width: 100%; z-index: 100; text-align: center; line-height: 0;}
-#lightbox img{ width: auto; height: auto;}
+#lightbox img{ width: 100%; height: 100%;}
 #lightbox a img{ border: none; }
 
 #outerImageContainer{ position: relative; background-color: #fff; width: 250px; height: 250px; margin: 0 auto; }
