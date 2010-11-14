@@ -3,11 +3,23 @@
 html {
 	background-color: #222222;
 	background: url(img/bg_black.jpg);
+	
 }
 
 body {
 	font-family:Helvetica, sans-serif;
 	color:white;
+}
+
+a,a:link,a:visited{
+	text-decoration:none;
+	color:white;
+}
+
+a:hover,a:active{
+	text-decoration:none;
+	color:#99FF00;
+	outline:none;
 }
 
 div#wrapper {
@@ -20,8 +32,10 @@ div#header{
 	margin:0 auto;
 	padding: 30px 25px;
 	background: url(img/swirls_blue2.jpg);
+	/* Header image based on "Nightlights Metallic Gold Green Stock Background Texture" by http://www.flickr.com/photos/backgroundsetc */
 	border: thin solid gray;
 }
+
 
 div#content{
 
@@ -52,17 +66,6 @@ div#navigation ul li{
 	padding:15px;
 	background-color:#2b4255;
 	border-top: solid thin gray;
-}
-
-div#navigation a,a:link,a:visited{
-	text-decoration:none;
-	color:white;
-}
-
-div#navigation a:hover,a:active{
-	text-decoration:none;
-	color:#99FF00;
-	outline:none;
 }
 
 
@@ -216,6 +219,10 @@ ul.skills li.skilltype {
 
 
 /*CSS FOR PORTFOLIO*/
+
+ul.port_item{
+	padding-bottom: 15px;
+}
 
 ul.portfolio{
 	margin-left: 330px;
