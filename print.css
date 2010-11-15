@@ -13,7 +13,7 @@ div#content {margin: 0 auto; font-family:sans-serif; font-size:10pt;
 
 
 /*navigation*/
-div#navigation {display:none; margin:0; padding:0;
+div#navigation > ul{display:none; margin:0; padding:0;
 }
 
 
@@ -83,10 +83,54 @@ ul.skills > li {margin-left: 135px;
 ul.skills li.skilltype {position: absolute; margin: 0; padding-left:5px;
 }
 
-/*CSS for portfolio*/
-/*images*/
-img {width: 300px;
+/*CSS FOR PORTFOLIO*/
+
+ul.port_item{
+	padding-bottom: 10px;
 }
+
+ul.portfolio{
+	margin-left: 330px;
+	padding-top:8px;
+}
+
+ul.portfolio li{
+    padding-bottom:10px;
+}
+
+ul.portfolio strong{
+	color: #527280;
+}
+
+ul.port_images li.caption{
+	padding-bottom:8px;
+	font-size:9px;
+	color:#a3c0d2;
+}
+
+p.tags{
+	padding:5px 0px 5px 10px;
+	color: #527280;
+	
+}
+
+/*portfolio images*/
+
+ul.port_images {
+	position: absolute;
+}
+
+img {
+	width: 300px;
+}
+
+img.arrow {
+    width: 1em;
+    text-align:right;
+    vertical-align:bottom;
+    padding:0px 5px;
+}
+
 
 /*LaTeX*/
 .latex {
@@ -124,10 +168,13 @@ ul.portfolio a,a:active,a:hover{text-decoration:none; outline:none; color:#99FF0
 }
 
 
-
-
-
 div#footer {float:right; padding:10px 0px; font-size:x-small;
 }
 
+p.validators{
+	display:none;
+}
 
+img#typekit-badge-iue5igd {
+	display:none;
+}
