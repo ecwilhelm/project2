@@ -2,8 +2,7 @@
 
 html {
 	background-color: #222222;
-	background: url(img/bg_black.jpg);
-	
+	background: url(img/bg_black.jpg);	
 }
 
 body {
@@ -13,7 +12,8 @@ body {
 
 a,a:link,a:visited{
 	text-decoration:none;
-	color:white;
+	color:#a3c0d2;
+	outline:none;
 }
 
 a:hover,a:active{
@@ -176,16 +176,7 @@ ul.home > ul.linklist{
 	padding: 0px;
 }
 
-ul.linklist a,a:link,a:visited{
-	color:#a3c0d2;
-}
-
-ul.linklist a:hover,a:active{
-	text-decoration:none;
-	color:#99FF00;
-	outline:none;
-}
-
+*/
 /*CSS FOR RESUME*/
 
 /*resume header*/
