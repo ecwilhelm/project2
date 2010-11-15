@@ -137,7 +137,7 @@ li {margin: 5px 0px;
 /*CSS FOR HOME*/
 
 h3.home{
-	font-size: 36px;
+	font-size: 30px;
 	margin-top:55px;
 	text-align:left; 
 }
@@ -151,12 +151,17 @@ ul.contact{
 	margin-left:600px;
 	padding: 25px 10px;
 	text-align:center;
-	border: thin solid gray;
+	background-color: #222222;
 }
 
 ul.contact strong{
 	font-size: 18px;
 	padding-top:10px;
+}
+
+ul.linklist{
+	font-size: 14px;
+	padding:5px 0px;
 }
 
 /*CSS FOR RESUME*/
@@ -274,6 +279,11 @@ ul.portfolio a:active,a:hover{
 	outline:none;
 }
 
+p.tags{
+	padding:5px 0px 5px 10px;
+	color: #527280;
+	
+}
 
 /*portfolio images*/
 img {
