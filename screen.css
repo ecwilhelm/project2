@@ -155,6 +155,9 @@ ul.contact{
 }
 
 ul.contact strong{
+	color:#527280;
+}
+ul.contact strong{
 	font-size: 18px;
 	padding-top:10px;
 }
@@ -162,6 +165,16 @@ ul.contact strong{
 ul.linklist{
 	font-size: 14px;
 	padding:5px 0px;
+}
+
+ul.linklist a,a:link,a:visited{
+	color:#a3c0d2;
+}
+
+ul.linklist a:hover,a:active{
+	text-decoration:none;
+	color:#99FF00;
+	outline:none;
 }
 
 /*CSS FOR RESUME*/
@@ -246,6 +259,10 @@ ul.skills li.skilltype {
 	padding-left:5px;
 }
 
+/*references*/
+h5#references {
+	margin-top: 20px;
+}
 
 /*CSS FOR PORTFOLIO*/
 
