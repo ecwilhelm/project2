@@ -138,12 +138,16 @@ li {margin: 5px 0px;
 
 h3.home{
 	font-size: 30px;
-	margin-top:55px;
+	margin-top:35px;
 	text-align:left; 
 }
 
 ul.home{
 	width:70%;
+}
+
+ul.home li{
+	padding:5px 0px;
 }
 
 ul.contact{
@@ -165,6 +169,11 @@ ul.contact strong{
 ul.linklist{
 	font-size: 14px;
 	padding:5px 0px;
+}
+
+ul.home > ul.linklist{
+	font-size: 14px;
+	padding: 0px;
 }
 
 ul.linklist a,a:link,a:visited{
@@ -279,21 +288,14 @@ ul.portfolio li{
     padding-bottom:10px;
 }
 
-ul.port_images {
-	position: absolute;
+ul.portfolio strong{
+	color: #527280;
 }
 
 ul.port_images li.caption{
 	padding-bottom:8px;
 	font-size:9px;
 	color:#a3c0d2;
-}
-
-ul.portfolio a:active,a:hover{
-	padding-top: 750px;
-	text-decoration:none;
-	color:#99FF00;
-	outline:none;
 }
 
 p.tags{
@@ -303,6 +305,11 @@ p.tags{
 }
 
 /*portfolio images*/
+
+ul.port_images {
+	position: absolute;
+}
+
 img {
 	width: 300px;
 }
