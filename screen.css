@@ -7,7 +7,7 @@ html {
 }
 
 body {
-	font-family:Helvetica, sans-serif;
+	font-family: Helvetica, sans-serif;
 	color:white;
 }
 
@@ -52,7 +52,7 @@ div#content{
 
 div#navigation {
 	width:100%;
-	margin-bottom: 35px;
+	margin-bottom: 25px;
 	font-size:14px;
 }
 
@@ -134,6 +134,30 @@ li {margin: 5px 0px;
 	font-style:italic;
 }
 
+/*CSS FOR HOME*/
+
+h3.home{
+	font-size: 36px;
+	margin-top:55px;
+	text-align:left; 
+}
+
+ul.home{
+	width:70%;
+}
+
+ul.contact{
+	position:absolute;
+	margin-left:600px;
+	padding: 25px 10px;
+	text-align:center;
+	border: thin solid gray;
+}
+
+ul.contact strong{
+	font-size: 18px;
+	padding-top:10px;
+}
 
 /*CSS FOR RESUME*/
 
@@ -195,7 +219,7 @@ ul.position ul.tasks {
 }
 
 ul.tasks > li {
-	list-style-type:square;
+	list-style:square;
 }
 
 
@@ -221,12 +245,12 @@ ul.skills li.skilltype {
 /*CSS FOR PORTFOLIO*/
 
 ul.port_item{
-	padding-bottom: 15px;
+	padding-bottom: 10px;
 }
 
 ul.portfolio{
 	margin-left: 330px;
-	padding-top:10px;
+	padding-top:8px;
 }
 
 ul.portfolio li{
@@ -235,7 +259,6 @@ ul.portfolio li{
 
 ul.port_images {
 	position: absolute;
-	padding-top:10px;
 }
 
 ul.port_images li.caption{
@@ -251,9 +274,6 @@ ul.portfolio a:active,a:hover{
 	outline:none;
 }
 
-ul.gallery{
-    list-style: square;
-}
 
 /*portfolio images*/
 img {
@@ -266,6 +286,7 @@ img.arrow {
     vertical-align:bottom;
     padding:0px 5px;
 }
+
 
 /*LaTeX logo font*/
 
@@ -295,9 +316,15 @@ img.arrow {
 /*FOOTER*/
 
 div#footer {
-	padding:15px 0px;
-	text-align: right;
+	padding:15px 5px 20px 5px;	
 	font-size:x-small;
 	color:#527280;
 }
 
+p.license{
+	float:left;
+}
+
+p.validators{
+	float: right;
+}
