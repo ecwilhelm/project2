@@ -283,6 +283,7 @@ ul.portfolio strong{
 }
 
 ul.port_images li.caption{
+	width: 300px;
 	padding-bottom:8px;
 	font-size:9px;
 	color:#a3c0d2;
