@@ -2,7 +2,7 @@
 
 html {
 	background-color: #222222;
-	background: url(img/bg_black.jpg);	
+	background: url(img/bg_black.jpg);
 }
 
 body {
@@ -46,6 +46,8 @@ div#content{
 	background-color: black;
 	border: thin solid gray;
 }
+
+
 
 
 /*NAVIGATION*/
@@ -139,7 +141,7 @@ li {margin: 5px 0px;
 h3.home{
 	font-size: 30px;
 	margin-top:35px;
-	text-align:left; 
+	text-align:left;
 }
 
 ul.home{
@@ -292,7 +294,7 @@ ul.port_images li.caption{
 p.tags{
 	padding:5px 0px 5px 10px;
 	color: #527280;
-	
+
 }
 
 /*portfolio images*/
@@ -338,10 +340,30 @@ img.arrow {
 }
 
 
+/*BLOG*/
+
+ul.blog {width:
+    85%;
+}
+
+p {
+    padding:0px 10px;
+}
+
+p.blog_date {
+    font-size:x-small;
+    color:#a3c0d2;
+    padding: 5px 0px 10px 10px;
+}
+
+h5.blog{
+    margin-top:25px;
+}
+
 /*FOOTER*/
 
 div#footer {
-	padding:15px 5px 20px 5px;	
+	padding:15px 5px 20px 5px;
 	font-size:x-small;
 	color:#527280;
 }
@@ -353,3 +375,4 @@ p.license{
 p.validators{
 	float: right;
 }
+
