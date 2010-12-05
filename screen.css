@@ -155,15 +155,18 @@ ul.home li{
 ul.contact{
 	position:absolute;
 	margin-left:600px;
-	padding: 25px 10px;
+	padding: 20px 10px 10px 10px;	
 	text-align:center;
 	background-color: #222222;
 }
 
+ul.contact li ul{
+	padding-bottom:10px;
+}
 
 ul.contact strong{
 	font-size: 18px;
-	padding-top:10px;
+	margin-top:15px;
 	color:#527280;
 }
 
@@ -384,11 +387,6 @@ ul.wp{
 	text-align:right;
 	font-size:x-small;
 	color:#527280;
-}
-
-ul.wp img{
-	width:30px;
-	vertical-align:bottom;
 }
 
 /*FOOTER*/

@@ -64,7 +64,7 @@
 							?>
 
 							<?php
-                    			$posts = get_posts('numberposts=10&order=DESC&orderby=post_title');
+                    			$posts = get_posts('numberposts=5&order=DESC&orderby=post_title');
                     			foreach ($posts as $post) : start_wp(); 
                     		?>
                     		<?php 
