@@ -160,12 +160,11 @@ ul.contact{
 	background-color: #222222;
 }
 
-ul.contact strong{
-	color:#527280;
-}
+
 ul.contact strong{
 	font-size: 18px;
 	padding-top:10px;
+	color:#527280;
 }
 
 ul.linklist{
@@ -284,13 +283,6 @@ ul.portfolio strong{
 	color: #527280;
 }
 
-ul.port_images li.caption{
-	width: 300px;
-	padding-bottom:8px;
-	font-size:9px;
-	color:#a3c0d2;
-}
-
 p.tags{
 	padding:5px 0px 5px 10px;
 	color: #527280;
@@ -301,6 +293,13 @@ p.tags{
 
 ul.port_images {
 	position: absolute;
+}
+
+ul.port_images li.caption{
+	width: 300px;
+	padding-bottom:8px;
+	font-size:9px;
+	color:#a3c0d2;
 }
 
 img {
@@ -342,8 +341,8 @@ img.arrow {
 
 /*BLOG*/
 
-ul.blog {width:
-    85%;
+ul.blog {
+	width: 70%;
 }
 
 p {
@@ -358,6 +357,38 @@ p.blog_date {
 
 h5.blog{
     margin-top:25px;
+}
+
+/*feed*/
+ul.feed{
+	position:absolute;
+	margin-left:600px;
+	padding: 10px 30px 0px 30px;
+	text-align:center;
+	background-color: #222222;
+}
+
+ul.feed li ul{
+	padding-bottom:10px;
+}
+
+img.icon{
+	width: 50px;
+	
+}
+
+/*wp credits*/
+ul.wp{
+	margin:0px;
+	padding:5px;
+	text-align:right;
+	font-size:x-small;
+	color:#527280;
+}
+
+ul.wp img{
+	width:30px;
+	vertical-align:bottom;
 }
 
 /*FOOTER*/

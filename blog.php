@@ -32,24 +32,61 @@
 				<h3>Blog</h3>
 
 			</div>
-			<ul class="blog">
-			    <li>
-				<?php
-					define('WP_USE_THEMES', false);
-					require('./blog/wp-blog-header.php');
-				?>
-
-				<?php
-                    $posts = get_posts('numberposts=10&order=DESC&orderby=post_title');
-                    foreach ($posts as $post) : start_wp(); ?>
-                    <?php the_title('<h5 class="blog">', '</h5>'); ?>
-                    <p class="blog_date">posted <?php echo get_the_date(); ?> by <?php the_author(); ?></p>
-                    <?php the_content('<p>','</p>'); ?>
-                <?php
-                    endforeach;
-                ?>
-                </li>
+			<ul class="feed">
+						<li>
+							<ul>
+								<li>
+									<a href="http://feeds.feedburner.com/EvaCWilhelm"><img class="icon" src="img/rss_iconb.gif" alt="Subscribe via RSS icon" /></a>
+								</li>
+            					<li>
+            						<strong><a href="http://feeds.feedburner.com/EvaCWilhelm">Subscribe via RSS</a></strong>
+            					</li>
+            				</ul>
+            			</li>
+            			
+            			<li>
+            				<ul>
+            					<li>
+            						<a href="http://feedburner.google.com/fb/a/mailverify?uri=EvaCWilhelm&amp;loc=en_US"><img class="icon" src="img/email_icon.gif" alt="Subscribe via email icon" /></a>
+            					</li>
+            					<li>
+            						<strong><a href="http://feedburner.google.com/fb/a/mailverify?uri=EvaCWilhelm&amp;loc=en_US">Subscribe via email</a></strong>
+            					</li>
+            				</ul>
+            			</li>
             </ul>
+				
+			<ul class="blog">
+			    		<li>
+							<?php
+								define('WP_USE_THEMES', false);
+								require('./blog/wp-blog-header.php');
+							?>
+
+							<?php
+                    			$posts = get_posts('numberposts=10&order=DESC&orderby=post_title');
+                    			foreach ($posts as $post) : start_wp(); 
+                    		?>
+                    		<?php 
+                    			the_title('<h5 class="blog">', '</h5>'); 
+                    		?>
+                    		<p class="blog_date">posted <?php echo get_the_date(); ?> by <?php the_author(); ?></p>
+                    		<?php the_content('<p>','</p>'); ?>
+                			
+                			<?php
+                   			 endforeach;
+                			?>
+               			</li>
+            		</ul>
+            	
+            	<ul class="wp">
+            		<li>powered by <a href="http://www.wordpress.org">Wordpress</a>
+            		</li>
+            	</ul>
+            	
+            		
+            	
+            
         </div>
 
 		<div id="footer">
